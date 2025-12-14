@@ -1,0 +1,23 @@
+{
+  "name": "emiro-ui",
+  "version": "0.0.0",
+  "description": "Reusable UI component library for React",
+  "type": "module",
+  "main": "src/index.js",
+  "author": "Ukasyah <hi.ukasyah@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://emiro-ui.ukasyah.workers.dev/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ukasyah-dev/emiro-ui"
+  },
+  "keywords": [
+    "react",
+    "ui",
+    "components",
+    "library"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
