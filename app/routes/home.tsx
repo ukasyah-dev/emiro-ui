@@ -1,4 +1,4 @@
-import { Welcome } from "../welcome/welcome";
+import { Button } from "@/components/ui/button";
 
 export function meta() {
   return [
@@ -8,5 +8,10 @@ export function meta() {
 }
 
 export default function Home() {
-  return <Welcome message="Welcome to React Router!" />;
+  return (
+    <>
+      <p>Welcome to emiro-ui!</p>
+      <Button>Hello Button</Button>
+    </>
+  );
 }
