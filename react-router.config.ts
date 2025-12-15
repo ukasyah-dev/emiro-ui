@@ -2,7 +2,7 @@ import type { Config } from "@react-router/dev/config";
 
 export default {
   prerender: true,
-  ssr: true,
+  ssr: false,
   future: {
     v8_viteEnvironmentApi: true,
   },

@@ -2,5 +2,7 @@
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "emiro-ui",
   "compatibility_date": "2025-12-10",
-  "main": "./workers/app.ts",
+  "assets": {
+    "directory": "./build/client",
+  },
 }
