@@ -33,6 +33,14 @@
       "prettier --ignore-unknown --write"
     ]
   },
+  "dependencies": {
+    "@radix-ui/react-navigation-menu": "^1.2.14",
+    "@radix-ui/react-slot": "^1.2.4",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.561.0",
+    "tailwind-merge": "^3.4.0"
+  },
   "devDependencies": {
     "@cloudflare/vite-plugin": "^1.17.1",
     "@eslint/js": "^9.39.2",
@@ -58,13 +66,5 @@
     "vite": "^7.2.7",
     "vite-tsconfig-paths": "^5.1.4",
     "wrangler": "^4.54.0"
-  },
-  "dependencies": {
-    "@radix-ui/react-navigation-menu": "^1.2.14",
-    "@radix-ui/react-slot": "^1.2.4",
-    "class-variance-authority": "^0.7.1",
-    "clsx": "^2.1.1",
-    "lucide-react": "^0.561.0",
-    "tailwind-merge": "^3.4.0"
   }
 }
