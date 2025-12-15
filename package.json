@@ -6,7 +6,7 @@
   "main": "src/index.js",
   "author": "Ukasyah <hi.ukasyah@gmail.com>",
   "license": "MIT",
-  "homepage": "https://emiro-ui.ukasyah.workers.dev/",
+  "homepage": "https://emiro-ui.ukasyah.workers.dev",
   "repository": {
     "type": "git",
     "url": "https://github.com/ukasyah-dev/emiro-ui"
