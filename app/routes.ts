@@ -16,5 +16,6 @@ export default [
         route("examples", "routes/docs/examples.tsx"),
       ]),
     ]),
+    route("examples/:group/:slug", "routes/examples/demo.tsx"),
   ]),
 ] satisfies RouteConfig;

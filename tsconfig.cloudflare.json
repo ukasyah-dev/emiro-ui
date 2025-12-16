@@ -7,7 +7,8 @@
     "app/**/.client/**/*",
     "workers/**/*",
     "worker-configuration.d.ts",
-    "src/**/*"
+    "src/**/*",
+    "highlighter.ts"
   ],
   "compilerOptions": {
     "composite": true,

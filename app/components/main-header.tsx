@@ -1,5 +1,5 @@
 import { SquareArrowOutUpRightIcon } from "lucide-react";
-import { Link } from "react-router";
+import { Link, useMatch } from "react-router";
 
 import { Container } from "@/components/common/container";
 import {
@@ -10,6 +10,12 @@ import {
 } from "@/components/ui/navigation-menu";
 
 export function MainHeader() {
+  const matchedExamplePage = useMatch("/examples/*");
+
+  if (matchedExamplePage) {
+    return null;
+  }
+
   return (
     <div className="border-border bg-background border-b">
       <Container className="flex h-16 items-center">
