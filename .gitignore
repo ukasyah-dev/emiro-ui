@@ -1,5 +1,6 @@
 .DS_Store
 .env
+/dist/
 /node_modules/
 *.tsbuildinfo
 
@@ -12,7 +13,6 @@
 .wrangler
 .dev.vars*
 worker-configuration.d.ts
-
 
 !.dev.vars.example
 !.env.example

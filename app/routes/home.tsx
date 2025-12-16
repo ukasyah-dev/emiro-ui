@@ -1,5 +1,5 @@
 import { Container } from "@/components/common/container";
-import { SquareGridPattern } from "@/components/pattern/square-grid-pattern";
+import { SquareGridPattern } from "@/components/patterns/square-grid-pattern";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router";
 

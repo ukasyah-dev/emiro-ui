@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { sentenceCase } from "change-case";
+// @ts-expect-error fs/promises doesn't have types
 import fs from "fs/promises";
 import { ArrowLeftIcon, CodeXmlIcon, EyeIcon } from "lucide-react";
 import { data, useNavigate } from "react-router";
@@ -21,7 +22,7 @@ export async function loader({ params }: Route.LoaderArgs) {
     for (const filePath of filePaths) {
       const file = await fs.readFile(`${folderPath}/${filePath}`, "utf-8");
       const content = file
-        .replace(`"@"`, `"emiro-ui"`)
+        .replaceAll(`@/`, `emiro-ui/`)
         .replaceAll("\t", "  ")
         .trimEnd();
 
