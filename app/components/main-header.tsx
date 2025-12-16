@@ -11,7 +11,7 @@ import {
 
 export function MainHeader() {
   return (
-    <div className="border-border border-b">
+    <div className="border-border bg-background border-b">
       <Container className="flex h-16 items-center">
         <p className="text-accent-foreground/90 mr-auto text-xl font-semibold">
           <Link to="/">Emiro UI</Link>
