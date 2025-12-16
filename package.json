@@ -1,6 +1,6 @@
 {
   "name": "emiro-ui",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Reusable UI component library for React",
   "type": "module",
   "author": "Ukasyah <hi.ukasyah@gmail.com>",
