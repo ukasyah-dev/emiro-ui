@@ -1,2 +1,4 @@
-@import "tailwindcss" source(".");
+@import "tailwindcss";
 @import "../src/styles.css";
+@plugin "@tailwindcss/typography";
+@source ".";

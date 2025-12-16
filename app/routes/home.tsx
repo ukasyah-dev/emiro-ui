@@ -1,6 +1,7 @@
 import { Container } from "@/components/common/container";
 import { SquareGridPattern } from "@/components/pattern/square-grid-pattern";
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router";
 
 export function meta() {
   return [
@@ -24,7 +25,9 @@ export default function Home() {
           reality without ever worrying about the UI.
         </p>
         <div className="mt-8 flex justify-center gap-3">
-          <Button size="lg">Get started</Button>
+          <Button size="lg" asChild>
+            <Link to="/docs/getting-started/">Get started</Link>
+          </Button>
           <Button size="lg" variant="outline">
             Browse components
           </Button>
