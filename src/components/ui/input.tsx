@@ -1,5 +1,4 @@
 import { cva, type VariantProps } from "class-variance-authority";
-import type { ComponentProps } from "react";
 
 import { cn } from "@/lib/utils";
 
@@ -27,7 +26,7 @@ function Input({
   size,
   type,
   ...props
-}: ComponentProps<"input"> & VariantProps<typeof inputVariants>) {
+}: React.ComponentProps<"input"> & VariantProps<typeof inputVariants>) {
   return (
     <input
       type={type}

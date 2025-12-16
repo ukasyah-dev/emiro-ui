@@ -4,5 +4,5 @@ export default defineConfig({
   dts: {
     build: true,
   },
-  entry: ["./src/components", "./src/lib/utils"],
+  entry: ["./src/components", "./src/constants", "./src/lib/utils"],
 });

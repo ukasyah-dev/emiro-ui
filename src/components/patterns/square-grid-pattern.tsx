@@ -1,6 +1,4 @@
-import type { ComponentProps } from "react";
-
-export function SquareGridPattern(props: ComponentProps<"svg">) {
+export function SquareGridPattern(props: React.ComponentProps<"svg">) {
   return (
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" {...props}>
       <defs>
