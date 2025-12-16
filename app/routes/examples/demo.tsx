@@ -1,16 +1,21 @@
-import { useState } from "react";
 import { sentenceCase } from "change-case";
 // @ts-expect-error fs/promises doesn't have types
 import fs from "fs/promises";
 import { ArrowLeftIcon, CodeXmlIcon, EyeIcon } from "lucide-react";
+import { useState } from "react";
 import { data, useNavigate } from "react-router";
 
-import { Button } from "@/components/ui/button";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import {
+  Container,
+  Button,
+  Tabs,
+  TabsContent,
+  TabsList,
+  TabsTrigger,
+} from "@/components";
 import { cn } from "@/lib/utils";
 import type { Route } from "./+types/demo";
 import { highlighter } from "../../../highlighter";
-import { Container } from "@/components/common/container";
 
 export async function loader({ params }: Route.LoaderArgs) {
   const folderPath = `./app/examples/${params.group}/${params.slug}`;
